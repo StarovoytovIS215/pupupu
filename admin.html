@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Панель Администратора Строительной Компании</title>
+    <link rel="stylesheet" href="css/styless.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('/img/i.webp') no-repeat center center fixed; /* Укажите путь к вашему изображению */
+            background-size: cover; /* Масштабируем изображение для покрытия всего экрана */
+        }
+        header {
+            background: rgba(74, 144, 226, 0.8); /* Полупрозрачный фон */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav {
+            background: rgba(211, 84, 0, 0.8); /* Полупрозрачный фон */
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 5px solid #c0392b;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 25px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+        main {
+            padding: 30px;
+            max-width: 900px;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.9); /* Полупрозрачный фон для основного контента */
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #34495e;
+            color: #ffffff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+        h2 {
+            color: #2980b9;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        strong {
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать, Администратор!</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="baza.php">Управление пользователями</a></li>
+            <li><a href="view_reports.html">Просмотр отчетов</a></li>
+            <li><a href="project_management.html">Управление проектами</a></li>
+            <li><a href="settings.html">Настройки системы</a></li>
+            <li><a href="login.php">Выйти</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Обзор системы</h2>
+        <p>На этой панели вы можете управлять пользователями, просматривать отчеты, управлять проектами и изменять настройки системы.</p>
+        
+        <section>
+            <h3>Недавние действия</h3>
+            <ul>
+                <li>Добавлен новый пользователь: Игорь Иванов</li>
+                <li>Удален пользователь: Анна Петрова</li>
+                <li>Создан отчет по проекту "Строительство жилого комплекса"</li>
+                <li>Начато новое строительство: "Школа №45"</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Статистика проектов</h3>
+            <p>Всего активных проектов: <strong>25</strong></p>
+            <p>Завершенные проекты: <strong>10</strong></p>
+            <p>Проекты в процессе: <strong>15</strong></p>
+        </section>
+
+        <section>
+            <h3>Статистика пользователей</h3>
+            <p>Всего пользователей: <strong>
+                <strong>50</strong></p>
+                <p>Активные пользователи: <strong>30</strong></p>
+                <p>Неактивные пользователи: <strong>20</strong></p>
+            </section>
+    
+        </main>
+    
+        <footer>
+            <p>&copy; 2024 Строительная Компания. Все права защищены.</p>
+        </footer>
+    </body>
+    </html>

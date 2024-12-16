@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Здравствуйте, Дорогой Гость!</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Исправлено имя файла стилей -->
+    <style>
+        body {
+            background-image: url('/img/9a9a7ddd5711c6657e7c24446c2ac5d8.jpeg'); /* Путь к вашему фоновому изображению */
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+        header {
+            background-color: rgba(60, 130, 230, 0.9); /* Нежный синий цвет для заголовка */
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 4px solid #3b5998; /* Темно-синяя граница */
+        }
+        nav {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            text-align: left; /* Выравнивание кнопок влево */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Тень для навигации */
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline-block; /* Элементы списка в одну строку */
+            margin-right: 15px; /* Пробелы между элементами */
+        }
+        nav a {
+            text-decoration: none; /* Убираем подчеркивание */
+            color: #3b5998; /* Темно-синий цвет для ссылок */
+            font-weight: bold; /* Жирный шрифт */
+            transition: color 0.3s; /* Плавный переход цвета при наведении */
+        }
+        nav a:hover {
+            color: #ff7f50; /* Цвет при наведении */
+        }
+        main {
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Направление фона для основного содержимого */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Тень для основного содержимого */
+        }
+        button {
+            background-color: #3b5998; /* Основной цвет кнопок */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px; /* Отступы между кнопками */
+            transition: background-color 0.3s; /* Плавный переход фона при наведении */
+        }
+        button:hover {
+            background-color: #ff7f50; /* Цвет кнопки при наведении */
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 16px; /* Увеличен размер шрифта */
+            color: #000; /* Черный цвет текста */
+            font-weight: bold; /* Жирный шрифт */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Здравствуйте, Дорогой Гость!</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="register.html"><button>Регистрация</button></a></li>
+            <li><a href="login.html"><button>Вход</button></a></li>
+            <li><a href="support.html"><button>Помощь</button></a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Информация для новых пользователей</h2>
+        <p>Зарегистрируйтесь или войдите в систему, чтобы получить доступ ко всем возможностям нашего сервиса.</p>
+        
+        <section>
+            <h3>Преимущества регистрации</h3>
+            <ul>
+                <li>Удобная и быстрая бронь заказов</li>
+                <li>Управление вашими бронированиями в одном месте</li>
+                <li>Получайте доступ к эксклюзивным предложениям и скидкам</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>2024 Система управления — Все права защищены</p>
+    </footer>
+</body>
+</html>
